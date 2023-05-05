@@ -1,7 +1,7 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
 
-class DiwaliShoppingList extends Component {
+class App extends Component {
   render() {
     const relatives = ["Amit", "Rita", "Rahul", "Kavya"];
 
@@ -18,4 +18,4 @@ class DiwaliShoppingList extends Component {
   }
 }
 
-export default DiwaliShoppingList;
+export default App;
